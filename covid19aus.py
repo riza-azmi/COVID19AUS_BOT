@@ -218,7 +218,7 @@ def error(update, context):
 
 
 def main():
-    updater = Updater("TOKEN:HERE", use_context=True)
+    updater = Updater("1089359805:AAEdE47Vxma9Y9iKEYpLJhuEaurmWSvaBtw", use_context=True)
     dp = updater.dispatcher
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
